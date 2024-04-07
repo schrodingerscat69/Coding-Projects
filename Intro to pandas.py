@@ -35,4 +35,16 @@ movie_reviews.shape
 # To check contents of first 5 rows of DataFrame:
 movie_reviews.head()
 
+# To access a single column from the DataFramce, use:
+movie_reviews."Column name"
+movie_reviews['Column name']
+
+# To print out a specfic value at index i:
+movie_reviews['Column name'][i]
+
+# To select the first row of the DataFrame, you can use:
+movie_reviews.iloc[0]
+#
+
+
 
