@@ -113,8 +113,8 @@ int main()
 	}
 
 	// show both moves
-	cout << "\t\t\tYour Move: " << playerMove << endl;
-	cout << "\t\t\tComputer's Move: " << computerMove << endl;
+	cout << "\t\t\tYour Move: " << playerMove << "\n";
+	cout << "\t\t\tComputer's Move: " << computerMove << "\n";
 
 	return 0;
 }
